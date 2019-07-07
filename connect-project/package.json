@@ -1,5 +1,5 @@
 {
-  "name": "Loopback/part/with/exprss",
+  "name": "@loopback/example-express-composition",
   "version": "1.4.5",
   "description": "LoopBack 4 REST API on Express",
   "keywords": [
