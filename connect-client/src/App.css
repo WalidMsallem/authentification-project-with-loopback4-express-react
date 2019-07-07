@@ -1,0 +1,19 @@
+.login-comoponent form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.login-comoponent {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100VH;
+}
+
+.logout-button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px
+}

@@ -1,0 +1,23 @@
+{
+  "name": "gmc-project",
+  "version": "1.0.0",
+  "description": "technologies used ! loopback4 express react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-global": "npm i",
+    "install-lb4part": "cd connect-project &&  npm i",
+    "install-frontend": "cd connect-client &&  npm i",
+    "lb4part": "cd connect-project &&  npm run start:watch",
+    "build-frontend": "cd connect-client &&   npm run watch",
+    "start-frontend": "cd connect-client &&  npm start",
+    "dev": "concurrently \" cd connect-client && npm run watch\" \"cd connect-project &&  npm run start:watch \""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "npm-watch": "^0.6.0",
+    "tsc-watch": "^2.2.1"
+  }
+}

@@ -1,0 +1,10 @@
+
+{
+  "name": "connectDB",
+  "connector": "mongodb",
+  "url": "mongodb://localhost:27017/connectDB",
+  "host": "localhost",
+  "port": 27017,
+
+  "database": "connectDB"
+}
