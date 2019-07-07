@@ -18,7 +18,7 @@ To run the project:
 ````
  $ npm run dev
 ````
-To run the frontend: ( you must change add an proxy in connect-client/package.json )
+To run the frontend: ( you must add an proxy in connect-client/package.json )
 ````
  $ npm run start-frontend
 ````
