@@ -20,11 +20,11 @@ To run the project:
 ````
 To run the frontend: ( you must change add an proxy in connect-client/package.json )
 ````
- $ start-frontend
+ $ npm run start-frontend
 ````
 To build the frontend:
 ````
- $ build-frontend
+ $  npm run build-frontend
 ````
   To run the backend:
 ````
