@@ -9,21 +9,24 @@ loopback 4 project Api that hold all backend logic within express to route the r
 ## Commands
 
 To install dependency: 
-```
-   npm run install-global 
-   npm run  install-lb4part 
-   npm run install-frontend 
-```   
- 
-
+````
+ $  npm run install-global 
+ $  npm run  install-lb4part 
+ $  npm run install-frontend 
+````
 To run the project:
 ````
-   npm run dev
+ $ npm run dev
 ````
-
-
-To run the project:
+To run the frontend: ( you must change add an proxy in connect-client/package.json )
 ````
-   npm run dev
-   
-  ```
+ $ start-frontend
+````
+To build the frontend:
+````
+ $ build-frontend
+````
+  To run the backend:
+````
+ $ npm run lb4part
+````
